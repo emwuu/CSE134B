@@ -1,15 +1,102 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-
 <head>
-	<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-	<title></title>
+    <meta charset="utf-8" />
+    <style>
+        body{
+            background-color:#eeeeee;
+            background-image:url(homegrownbg.jpg);
+            background-size:cover;
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+        }
+        .nav {
+            position:absolute;
+            top:0px;
+            left:0px;
+            text-align:right;
+            background-color:rgba(0,0,0,0.7);
+            width:100%;
+        }
+
+        .nav a {
+            display:inline-block;
+            text-decoration:none;
+            color:#ffffff;
+            font-weight:bold;
+            font-size:12pt;
+            font-family:Arial;
+            padding:20px;
+        }
+
+        .nav a:hover {
+            background-color:rgba(255,255,255,0.2);
+        }
+
+        #heading {
+            position:absolute;
+            left:0px;
+            top:30%;
+            width:100%;
+            text-align:center;
+        }
+
+        h1 {
+            font-weight:bolder;
+            color:#ffffff;
+            font-family:Century;
+            font-size:70pt;
+            text-transform:uppercase;
+            margin:0px;
+        }
+
+        h2 {
+            font-weight: bold;
+            color: #ffffff;
+            font-family: Century;
+            font-size: 20pt;
+            text-transform: uppercase;
+        }
+
+        #services {
+            position: absolute;
+            padding: 20px;
+            width: 100%;
+            top: 70%;
+            background-color: #f97a35;
+            text-align: center;
+        }
+
+        #about {
+            padding: 20px;
+            width: 100%;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        h3 {
+            color:#ffffff;
+            font-family:Arial;
+            font-size:1.5em;
+            text-transform:uppercase;
+        }
+    </style>
 </head>
-
 <body>
-	<a href="login.html"> Login In </a>
+    <div class="nav">
+        <a href="login.html">Log In</a>
+        <a href="login.html">Test</a>
+        <a href="login.html">Filler</a>
+    </div>
 
-	<h1> This is the home page </h1>
+    <div id="heading">
+        <h1>Homegrown</h1>
+        <h2>Build. Remodel.</h2>
+    </div>
+
+    <div id="services">
+        <h3>Our Services</h3>
+    </div>
+
 </body>
-
 </html>
